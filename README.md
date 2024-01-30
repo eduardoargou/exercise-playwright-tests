@@ -30,7 +30,7 @@ Tests are executed in Chromium, Firefox and Webkit. Chrome is Chromium-based and
 
 # Issues
 
-The Magento website seems to be unable to handle input if it's too fast, making some tests flaky. and failing with the "Invalid Form Key. Please refresh the page." error message.
+The tested website seems to be unable to handle input if it's too fast, making some tests flaky and failing with the "Invalid Form Key. Please refresh the page." error message.
 
 The tests can be ran with retries activated to improve passing rate in exchange of execution time. Use this command with `n` as the maximum number of retries for each test:
 
